@@ -1,8 +1,5 @@
 Welcome, 
 
-I have attached 2 zip files. 
-
-
 1) Vijay_Shop contains the source code. This project is in Netbeans. 
 
 
