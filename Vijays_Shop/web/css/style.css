@@ -1,0 +1,122 @@
+/*
+* 1. Background colors
+* 2. Borders
+* 3. Box Shadows
+* 4. Fonts
+* 5. Message Colors
+* 6. HTML page related
+*/
+
+
+/*  1. Background Colors  */
+
+.bg-white{
+	background-color: white;
+}
+
+.bg-orange{
+	background-color: orange;
+}
+
+.bg-yellow{
+	background-color: yellow;
+}
+
+.bg-red{
+	background-color: red;
+}
+
+.bg-purple{
+	background-color: purple;
+}
+
+.bg-blue{
+	background-color: blue;
+}
+
+.bg-magenta{
+	background-color: magenta;
+}
+
+
+/* 2. Borders */
+
+.round-border5{
+	border-radius: 5px;
+}
+
+.round-border10{
+	border-radius: 10px;
+}
+
+.round-border15{
+	border-radius: 15px;
+}
+
+.round-border20{
+	border-radius: 20px;
+}
+
+/*  3. Box Shadows */
+
+.box-shadow-common{
+	/* box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit; */
+	box-shadow: 5px 5px 5px 3px #999; 
+	
+}
+
+
+/*  4. Fonts */
+
+@font-face{
+	font-family: track;
+	src: url('../fonts/track.ttf');
+}
+
+/* 5. Message Colors */
+
+.msg-success{
+	color: green;
+}
+
+.msg-error{
+	color: red;
+}
+
+/* 6. HTML Page related */
+
+
+html{
+	overflow-x: hidden;
+}
+
+body{
+	background-image: url('../Images/dirt.png');
+	background-repeat: repeat;
+	overflow-x: hidden;
+	overflow-y: hidden;	
+}
+
+.navbar1{
+    background: #f5e79e;
+    color: black;
+}
+
+.navbar1 > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar1 > a:hover{
+    color: white;
+}
+
+.navbar1:hover{
+    background: #e38d13;
+}
+
+label{
+    text-align: left;
+    float: left;
+}
